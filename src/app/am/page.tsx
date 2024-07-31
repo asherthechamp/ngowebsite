@@ -14,6 +14,7 @@ export default async function Page({
 }) {
   let pagesContent = new Map<string, string>();
 
+  pagesContent.set("", "cti7jazPMfX1pCqZYmZAa");
   pagesContent.set("home", "4YLeIXldfRzipvyznyBloI");
   pagesContent.set("whatwedo", "3pQdoBLtegRpHjfi6vNVg1");
   pagesContent.set("village", "2WxkZsvlUjBcnEHVt75K8o");
