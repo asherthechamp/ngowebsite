@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Header from "../components/headerEn";
-import Footer from "../components/footerEn";
+import FooterAm from "@/components/footerAm";
+import HeaderControllerAm from "@/components/headerControllerAm";
 
 export const metadata: Metadata = {
   title: {
@@ -21,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-cyan-400">{children}</body>
+      <body className="bg-cyan-400">
+        <HeaderControllerAm />
+        {children}
+        <FooterAm />
+      </body>
     </html>
   );
 }

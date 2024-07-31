@@ -14,12 +14,12 @@ export default async function Page({
 }) {
   let pagesContent = new Map<string, string>();
 
-  pagesContent.set("home", "cti7jazPMfX1pCqZYmZAa");
-  pagesContent.set("whatwedo", "5lXMxiR8J26lQOzkncRgYu");
-  pagesContent.set("village", "5031MYYRwI7YK3Mk8pklJp");
-  pagesContent.set("stories", "3wVFRh2y8KUJlM1uSLF2VW");
-  pagesContent.set("about", "3W05MQMwgbOZb6WgC1TCUH");
-  pagesContent.set("takeaction", "5hJP7qpqPv7wDy2bmsV5o5");
+  pagesContent.set("home", "4YLeIXldfRzipvyznyBloI");
+  pagesContent.set("whatwedo", "3pQdoBLtegRpHjfi6vNVg1");
+  pagesContent.set("village", "2WxkZsvlUjBcnEHVt75K8o");
+  pagesContent.set("stories", "2tw1icr2HReNHMw4yDsDtK");
+  pagesContent.set("about", "4MtUOjc0qcIOj62PxRDAvS");
+  pagesContent.set("takeaction", "4AECaO0Me14zqGKId8hKaC");
   const s = pagesContent.get(params.pageName) || "";
   const pageData = await PageController(s);
 
