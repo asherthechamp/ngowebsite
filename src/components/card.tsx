@@ -12,7 +12,7 @@ export default function Card({
       <img className="w-full" src={image} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-yellow-500">{heading}</div>
-        <p className="text-cyan-500 text-base">{descreption}</p>
+        <span className="text-cyan-500 text-base">{descreption}</span>
       </div>
     </div>
   );

@@ -44,6 +44,9 @@ export default async function PageController(id: string) {
   };
   try {
     const Content = await client.getEntry(id);
+    await client.getEntry(id).catch((error) => {
+      console.log("page not found", error);
+    });
 
     const title: any = Content.fields?.title;
 

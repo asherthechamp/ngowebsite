@@ -44,9 +44,9 @@ export default function Banner({
             </strong>
           </h1>
 
-          <p className="[text-shadow:_2px_2px_2px_rgba(0,225,255,0.5)] mt-4 text-blue-950 max-w-lg sm:text-xl/relaxed">
+          <div className="[text-shadow:_2px_2px_2px_rgba(0,225,255,0.5)] mt-4 text-blue-950 max-w-lg sm:text-xl/relaxed">
             {text}
-          </p>
+          </div>
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <a

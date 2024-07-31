@@ -25,6 +25,11 @@ const nextConfig = {
         destination: "/en/home",
         permanent: true,
       },
+      {
+        source: "/am",
+        destination: "/am/home",
+        permanent: true,
+      },
     ];
   },
   env: {

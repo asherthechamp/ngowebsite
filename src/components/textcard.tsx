@@ -17,7 +17,7 @@ export default function TextCard({
         <div>
           <h2 className="text-lg font-bold text-yellow-600">{heading}</h2>
 
-          <p className="mt-1 text-sm text-blue-800">{descreption}</p>
+          <span className="mt-1 text-sm text-blue-800">{descreption}</span>
         </div>
       </div>
     </>
