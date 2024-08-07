@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://ngowebsite-asherthechamps-projects.vercel.app/en/home](This Link) with your browser to see the result.
+Open [This Link](https://ngowebsite-asherthechamps-projects.vercel.app/en/home) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
