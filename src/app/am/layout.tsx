@@ -22,6 +22,7 @@ export default function RootLayout({
       <body className="bg-cyan-400">
         <HeaderControllerAm />
         {children}
+        {".."}
         <FooterAm />
       </body>
     </html>
